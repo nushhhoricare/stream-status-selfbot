@@ -1,7 +1,6 @@
-import discord, os, keep_alive, asyncio, datetime, json, requests, pyarmor, pytransform, discord_webhook
+import discord, os, keep_alive, asyncio, datetime, json, requests, pyarmor, discord_webhook
 from discord.ext import tasks, commands
 
-keepalive = open("keep_alive.py", "r")
 config = json.load(open('config.json'))
 
 token = config["Token"]
