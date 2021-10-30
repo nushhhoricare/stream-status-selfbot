@@ -1,5 +1,5 @@
 {
-        "Token": "Your Token", //Your account token
-        "Stream_Url": "https://www.twitch.tv/Razvyy1337", // Example: https://www.twitch.tv/EXAMPLE
-        "Stream_Name": "teddyandrew.xyz | By Razvyy" // Example: Playing CS:GO
+        "Token": "TOKEN HERE",
+        "Stream_Url": "https://www.twitch.tv/Razvyy1337",
+        "Stream_Name": "teddyandrew.xyz | By Razvyy"
 }
